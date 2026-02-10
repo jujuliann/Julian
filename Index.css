@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #f4f4f4;
+}
+
+.cv {
+  max-width: 900px;
+  margin: 20px auto;
+  display: flex;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* KIRI */
+.left {
+  width: 30%;
+  background: #0f3d3e;
+  color: #fff;
+  padding: 20px;
+}
+
+.section-title {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 14px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+}
+
+.left p {
+  font-size: 13px;
+  margin: 6px 0;
+}
+
+/* KANAN */
+.right {
+  width: 70%;
+  padding: 25px;
+}
+
+.name {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.right h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  border-bottom: 2px solid #0f3d3e;
+  padding-bottom: 5px;
+}
+
+.right p,
+.right li {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+ul {
+  padding-left: 18px;
+}
+
+.edu {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.edu span {
+  color: #0f3d3e;
+  font-weight: bold;
+  }
